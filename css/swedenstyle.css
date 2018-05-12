@@ -1,0 +1,232 @@
+#sweden{
+    background-image: url(../images/swedenextent.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1200px;
+    width: 1500px;
+    background-size: cover;
+    z-index: -1
+}
+#country{
+    color: rgb(0,77,168);
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+}
+
+/*IMAGE POPUPS*/
+.circle{
+    background-image: url(../images/circle.png);
+    height: 25px;
+    width: 25px;
+    background-size:cover;
+    cursor: pointer;
+}
+.image{
+    position: fixed;
+    background-size: cover;
+    display: none;
+    top: 50%;
+    left: 50%;
+    height: 750px;
+    width: 1000px;
+    z-index: 2;
+    transform: translate(-50%, -50%);  
+}
+.infoicon{
+    position:fixed;
+    background-image: url(../images/info.png);
+    background-size: cover;
+    display: none;
+    height: 50px;
+    width: 50px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+/*INFO POPUPS*/
+.infobackground {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background: rgba(211,211,211,0.9);
+    z-index: 3;
+    top: 350px;
+    left: 775px;
+    display: none;
+}
+.info {
+    position: fixed;
+    background-size: cover;
+    display: none;
+    width: 400px;
+    height: 400px;
+    z-index: 4;
+    top: 350px;
+    left: 775px; 
+}
+
+/*NAVIGATION BAR*/
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+.navbar{
+    position: Fixed;
+    width: 1100;
+    height: 100;
+    top: 40px;
+    left: 30px;
+    color: rgb(0,92,230);
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    display: none;
+}
+
+a:link {
+    color: rgb(0,92,230);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0,92,230);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0,77,168);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0,92,230);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 5px) ;
+    transform: rotate(-45deg) translate(-7px, 5px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-7px, -7px) ;
+    transform: rotate(45deg) translate(-7px, -7px) ;
+}
+
+/*POINT LOCATIONS*/
+#icehotelloc{
+    position: absolute;
+    top:125px;
+    left:930px;
+}
+#fulufjalletloc{
+    position: absolute;
+    top:700px;
+    left:595px;
+}
+#storsjonloc{
+    position: absolute;
+    top:550px;
+    left:650px;
+}
+#jokkmokkloc{
+    position: absolute;
+    top:225px;
+    left:880px;
+}
+#salaloc{
+    position: absolute;
+    top:825px;
+    left:750px;
+}
+#bastnasloc{
+    position: absolute;
+    top:875px;
+    left:565px;
+}
+#bexellloc{
+    position: absolute;
+    top:1050px;
+    left:585px;
+}
+#wragardenloc{
+    position: absolute;
+    top:960px;
+    left:620px;
+}
+#failuresloc{
+    position: absolute;
+    top:1120px;
+    left:590px;
+}
+#bureplatsenloc{
+    position: absolute;
+    top:630px;
+    left:775px;
+}
+
+/*INFO ICONS*/
+#icehotelicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#fulufjalleticon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#storsjonicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#jokkmokkicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#salaicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#bastnasicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#bexellicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#wragardenicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#failuresicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}
+#bureplatsenicon{
+    position: fixed;
+    top: 710px;
+    left: 225px;
+}

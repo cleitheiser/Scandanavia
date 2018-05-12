@@ -1,0 +1,299 @@
+#iceland{
+    background-image: url(../images/icelandextent.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    width: 1400px;
+    background-size: cover;
+    z-index: -1;
+}
+#country{
+    color:rgb(0,77,168);
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    z-index: 1
+}
+
+/*IMAGE POPUPS*/
+.circle{
+    background-image: url(../images/circle.png);
+    height: 25px;
+    width: 25px;
+    background-size:cover;
+    cursor: pointer;
+}
+.image{
+    position: fixed;
+    background-size: cover;
+    display: none;
+    top: 50%;
+    left: 50%;
+    height: 750px;
+    width: 1000px;
+    z-index: 2;
+    transform: translate(-50%, -50%);  
+}
+.infoicon{
+    position:fixed;
+    background-image: url(../images/info.png);
+    background-size: cover;
+    display: none;
+    height: 50px;
+    width: 50px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+/*INFO POPUPS*/
+.infobackground {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background: rgba(211,211,211,0.9);
+    z-index: 3;
+    top: 350px;
+    left: 775px;
+    display: none;
+}
+.info {
+    position: fixed;
+    background-size: cover;
+    display: none;
+    width: 400px;
+    height: 400px;
+    z-index: 4;
+    top: 350px;
+    left: 775px; 
+}
+/*
+.name{
+    display: none;
+    font-family: 'Josefin Slab', serif;
+    width: 400px;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+}
+*/
+
+/*NAVIGATION BAR*/
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+.navbar{
+    position: Fixed;
+    width: 1100;
+    height: 100;
+    top: 40px;
+    left: 30px;
+    color: rgb(0,92,230);
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    display: none;
+}
+
+a:link {
+    color: rgb(0,92,230);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0,92,230);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0,77,168);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0,92,230);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 5px) ;
+    transform: rotate(-45deg) translate(-7px, 5px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-7px, -7px) ;
+    transform: rotate(45deg) translate(-7px, -7px) ;
+}
+
+/*POINT LOCATIONS*/
+#seljavallulaugloc{
+    position: absolute;
+    top: 730px;
+    left: 610px;
+}
+#hvitserkurloc{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+#fjadrargljufurloc{
+    position: absolute;
+    top: 730px;
+    left: 720px;
+}
+#dimmuborgirloc{
+    position: absolute;
+    top: 250px;
+    left: 930px;
+}
+#landloc{
+    position: absolute;
+    top: 660px;
+    left: 650px;
+}
+#witchcraftloc{
+    position: absolute;
+    top: 210px;
+    left: 420px;
+}
+#heimayloc{
+    position: absolute;
+    top: 770px;
+    left: 530px;
+}
+#tingvellirloc{
+    position:absolute;
+    top: 540px;
+    left: 475px;
+}
+#hraunfossarloc{
+    position: absolute;
+    top: 475px;
+    left: 450px;
+}
+#petrasloc{
+    position: absolute;
+    top: 385px;
+    left: 1210px;
+}
+
+/*INFO ICONS*/
+#seljavallulaugicon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#hvitserkuricon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#fjadrargljufuricon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#dimmuborgiricon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#landicon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#witchcrafticon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#heimayicon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#tingvelliricon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#hraunfossaricon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+#petrasicon{
+    position: fixed;
+    top: 700px;
+    left: 215px;
+}
+
+/*
+PLACE NAMES
+
+#seljavallulaugname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#hvitserkurname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#fjadrargljufurname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#dimmuborgirname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#landname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#witchcraftname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#heimayname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#tingvellirname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#hraunfossarname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+#petrasname{
+    position: fixed;
+    top: 350px;
+    left: 775px;
+}
+*/
+    
